@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ElevatedButton(onPressed: _click, child: const Text("Clik Here")),
           Text(desc,
               style:
-                  const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                  const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
         ],
       )),
     );
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
         var link = parsedJson["Poster"];
 
         desc =
-            "Search result for $selectMov is $title \n\nThis movie genre is $genre and release in $year.\n\n $link";
+            "Search result for $selectMov is $title \n\nThis movie genre is $genre and release in $year. \n\n$link";
       });
     } else {
       setState(() {
